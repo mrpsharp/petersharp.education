@@ -1,6 +1,6 @@
 #!/bin/bash
 
 cd $1
-git add -A
-git commit -m "Website update."
-git push origin main
+git add -A >/dev/null 2>&1
+git commit -m "Website update." >/dev/null 2>&1
+git push origin main >/dev/null 2>&1
